@@ -1,243 +1,234 @@
 <!DOCTYPE html>
 <html lang="en">
 <head> 
-  
+
+  <!-- Theme Made By Meraki Solution -->
   <title>Meraki Solution</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
   <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="script" href="funciones.js" />
   <link rel="shortcut icon" href="img/logomini2.png"> 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css" />
  
 </head>
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <!--a class="navbar-brand" href="#myPage">Logo</a-->
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#about">Nosotros</a></li>
-        <li><a href="#services">Servicios</a></li>
-        <!--li><a href="#portfolio">Portfolio</a></li-->
-        <li><a href="#pricing">Precios</a></li>
-        <li><a href="#contact">Contacto</a></li>
-      </ul>
-    </div>
-  </div>
+<div id="logo-principal">
+  <img class="mx-auto d-block" id="img-logo" src="img/logo08.png" width=50%>
+</div>
+
+
+<nav class="navbar navbar-expand-md ">
+  <button class="navbar-toggler navbar-header float-right" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <i class="fa fa-bars float-right bg-white"></i>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+    <ul class="navbar-nav justify-content-center">
+      <li class="nav-item">
+        <a class="nav-link" href="#about">Nosotros</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#services">Servicios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#pricing">Precios</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contacto</a>
+      </li>  
+    </ul>
+  </div> 
 </nav>
 
-<div class="jumbotron text-center">
-	<img src="img/logo07.png" width=70%>
+<div class="text-center banner">
+  <img src="img/banner01.jpg" id="banner01" width=90%>
+  <img src="img/bannermini01.jpg" id="banner02" width=90%>
 </div>
 
 <!-- Container (About Section) -->
-<div id="about" class="container-fluid">
-<a href="https://www.tiendanube.com/partners/merakisolution" target="_blank"><img class="banner" src="img/tiendaonline4.jpg" alt=""  width=100%></a>
-<br><br>
+<div id="about" class="container-fluid bg-primario">
   <div class="row">
-    <div class="col-sm-3">
-      <span class="glyphicon glyphicon-user logo slideanim"></span>
+    <div class="col-md-3 text-center">
+      <i class="fa txt-secundario" style="font-size:150px">&#xf0c0;</i>
     </div>	
-	<div class="col-sm-9">
-      <h2>Sobre nosotros</h2>
-      <p>Somos un grupo de jóvenes profesionales en continuo aprendizaje que diseñamos y desarrollamos Sitios Web con las últimas tendencias en diseño y programación, especializandonos en páginas orientadas al E-Commerce. Cada proceso de creación se ajusta a cada cliente con el fin de resolver sus necesidades de la forma más productiva posible. </p> 
-      <h4>¿Qué significa Meraki?</h4>
-	  <p>Meraki es una palabra que proviene del griego antiguo y su definición se orienta más a una idea o a una forma de vida, mas que a una única palabra. En fin, Meraki significa "Poner el alma, creatividad y amor en lo que haces, dejando un pedazo de ti siempre en tu trabajo". Y así trabajamos, poniendo todo en cada trabajo. ¡Esperamos poder trabajar junto a vos!</p>
+  	<div class="col-md-9">
+        <h2 class="txt-white">Sobre nosotros</h2>
+        <p class="txt-gray">Somos un grupo de jóvenes profesionales en continuo aprendizaje que diseñamos y desarrollamos Sitios Web con las últimas tendencias en diseño y programación, especializandonos en páginas orientadas al E-Commerce. Cada proceso de creación se ajusta a cada cliente con el fin de resolver sus necesidades de la forma más productiva posible. </p> 
+        <h4 class="txt-white">¿Qué significa Meraki?</h4>
+  	    <p class="txt-gray">Meraki es una palabra que proviene del griego antiguo y su definición se orienta más a una idea o a una forma de vida, mas que a una única palabra. En fin, Meraki significa "Poner el alma, creatividad y amor en lo que haces, dejando un pedazo de ti siempre en tu trabajo". Y así trabajamos, poniendo todo en cada trabajo. ¡Esperamos poder trabajar junto a vos!</p>
     </div>
-
   </div>
-  <br>
-  <a href="https://www.facebook.com/Meraki-Solution-333771767364778" target="_blank"><img class="banner" src="img/seguinos4.jpg" alt=""  width=100%></a>
 </div>
 
-<div class="container-fluid bg-grey">
+<div class="container-fluid bg-secundario">
   <div class="row">
-    <div class="col-sm-3">
-      <span class="glyphicon glyphicon-cog logo slideanim"></span>
+    <div class="col-md-3 text-center">
+      <i class="fa txt-primario" style="font-size:150px">&#xf109;</i>
     </div>     
-	<div class="col-sm-9">
-      <h2 class="tt-grey">COMO TRABAJAMOS</h2>
-      <h4 class="tt-grey">TECNOLOGIAS:</h4><p class="tx-grey">Trabajamos con HTML, CSS, Javascript, JQuery, Ajax, PHP, C#, Android, SQL Server, MySQL, entre otros.</p>
-      <p><h4 class="tt-grey">PROCESO DE CREACION: </h4>
-      <ol class="tx-grey">
+	<div class="col-md-9">
+      <h2 class="">COMO TRABAJAMOS</h2>
+      <h4 class="">TECNOLOGIAS:</h4>
+      <p>Trabajamos con HTML, CSS, Javascript, JQuery, Ajax, PHP, C#, Android, SQL Server, MySQL, entre otros.</p>
+      <h4>PROCESO DE CREACION: </h4>
+      <ol class="">
         <li><strong>Definición del proyecto: </strong>Una vez que acudiste a nosotros hay que tener lo más claro posible lo que deseas.  La definición consiste en muchos puntos como el alcance del proyecto, los requisitos que se quieren cumplir desde el inicio, que cosas gustaría que apareciesen más adelante, etc.</li>
         <li><strong>Diseño y maquetación: </strong>En este paso se realiza el diseño del sitio web, es aquí donde decidimos que aspecto va a tener, lo que nuestro público va a poder ver. Todo el código que hace que la web se vea de una forma o de otra en el navegador, que consigue que la experiencia de usuario sea buena o desastrosa.</li>
         <li><strong>Redacción del código: </strong>Consiste en escribir el código para que la web sea capaz de interactuar con el usuario.  </li>
         <li><strong>Testeo: </strong>Se prueba la página, se comprueba cada detalle con el fin de comprobar que todo funcione correctamente y no encontrarse con ningún problema posteriormente. </li>
         <li><strong>Publicación: </strong>En este punto el proyecto está listo para salir al mundo, por lo que vamos a tener la web disponible online y la gente la va a poder acceder a ella libremente.  </li>
-      </ol></p>
+      </ol>
+      <h4>SOMOS ESPECIALISTAS NUBE</h4>
+      <div class="row">
+        <div class="col-lg-3 text-center">
+          <img src="img/especialistanube.png" id="img-nube" width=110%>
+        </div>
+        <div class="col-lg-9">
+          <h5>¿Qué es un Especialistas Nube?</h5>
+          <p>Los Especialistas Nube somos un conjunto de agencias y profesionales independientes que tenemos experiencia trabajando en la plataforma de TiendaNube. Nosotros brindamos nuestros servicios para lograr los objetivos de cada cliente en relación con su tienda online.</p>
+          <p>Vas a poder ver nuestro perfil de Especialista haciendo click <a href="https://www.tiendanube.com/especialistas-nube/merakisolution" target="_blank">aquí</a>.</p>
+        </div>
+      </div>
       </div>
   </div>
 </div>
 
 <!-- Container (Services Section) -->
-<div id="services" class="container-fluid text-center">
-  <h2>SERVICIOS</h2>
-  <h4>Te ofrecemos...</h4>
+<div id="services" class="container-fluid text-center bg-primario">
+  <h2 class="txt-white">SERVICIOS</h2>
+  <h4 class="txt-gray">Desde Meraki te ofrecemos siempre lo mejor. Eso incluye:</h4>
   <br>
-  <div class="row slideanim">
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-wrench logo-small"></span>
-      <h4 style="color:#303030;">A MEDIDA</h4>
-      <p>Un sitio web realizado en base a tus preferencias y necesidades.</p>
+  <div class="row">
+    <div class="col-md-6">
+      <i class="material-icons txt-secundario" style="font-size:50px">star</i>
+      <h4 class="txt-white">ATENCIÓN PERSONALIZADA</h4>
+      <p class="txt-gray">Cada cliente es único y por eso nos comprometemos a tratarte con altos estándares de eficiencia.</p>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-certificate logo-small"></span>
-      <h4>CALIDAD</h4>
-      <p>Diseñamos sitios web acordes a lo que necesitas y no consideramos por terminado el trabajo hasta que quedes conforme con lo realizado. </p>
+    <div class="col-md-6">
+      <i class="material-icons txt-secundario" style="font-size:50px">done_all</i>
+      <h4 class="txt-white">CALIDAD</h4>
+      <p class="txt-gray">Porque sabemos que tu negocio es algo muy preciado, nuestros proyectos son llevados a cabo cuidadosamente y respetando siempre tus deseos y necesidades.</p>
     </div>
-    <div class="col-sm-4">
-      <span class="glyphicon glyphicon-lock logo-small"></span>
-      <h4>ASISTENCIA</h4>
-      <p>Ante cualquier duda o consulta estamos siempre a tu disposición. </p>
+    <div class="col-md-6">
+      <i class="material-icons txt-secundario" style="font-size:50px">assistant</i>
+      <h4 class="txt-white">ASISTENCIA</h4>
+      <p class="txt-gray">Te acompañamos durante todo el proceso. Tus dudas siempre serán consideradas e investigadas para que la respuesta que obtengas sea más que satisfactoria.</p>
+    </div>
+    <div class="col-md-6">
+      <i class="material-icons txt-secundario" style="font-size:50px">insert_emoticon</i>
+      <h4 class="txt-white">EXPERIENCIA WOW</h4>
+      <p class="txt-gray">Nuestro objetivo es brindarte no solo el producto que necesitas sino también la mejor de las experiencias mientras lo construimos.</p>
     </div>
   </div>
 </div>
 
+
 <!-- Container (Pricing Section) -->
-<div id="pricing" class="container-fluid bg-grey">
-  <div class="text-center">
-    <h2 class="tt-grey">Precios</h2>
-    <h4 class="tx-grey">Elegí la opción que más te convenga. En el caso de necesitar una página con otros requerimientos no dudes en contactarnos para que realicemos un presupuesto que se ajuste a tus necesidades. </h4>
-  </div>
-  <div class="row slideanim">
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>Landing <br> Page</h1>
-        </div>
-        <div class="panel-body">
-          <p>Lista en 1 semana</p>
-		  <p>Cantidad de Secciones: <strong>1</strong></p>
-          <p>Formulario de Contacto</p>
-		  <p>Sección para pubicar tus trabajos y los precios de tu servicio </p>
-          <p>Adaptado para Móviles</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$1.500</h3>
-          <h4>Más costos de mantenimiento</h4>
-        </div>
-      </div>      
-    </div>     
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>E-Commerce <br> Express Page</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>Tienda Nube</strong>   <img src="tiendanubelogo.png" alt="" height="20" width="20"> - Lista en 2 semanas</p>
-          <p>Partiendo de una plantilla predefinida la personalizamos para darle el toque de tu marca. Vas a poder potencia tu negocio ofreciendo distintos medios de pagos, servicio de envío y realizando un seguimiento a las estadísticas de Google Analytics.</p>
-        </div>
-        <div class="panel-footer">
-          <h3>$6.000</h3>
-          <h4>Más costos de mantenimiento</h4>
-        </div>
-      </div>      
-    </div>       
-    <div class="col-sm-4 col-xs-12">
-      <div class="panel panel-default text-center">
-        <div class="panel-heading">
-          <h1>E-Commerce Premium Page</h1>
-        </div>
-        <div class="panel-body">
-          <p><strong>Tienda Nube</strong><img src="tiendanubelogo.png" alt="" height="20" width="20"> - Lista en 1 mes</p>
-		  <p>Si queres que tu tienda sea inolvidable te ofrecemos un diseño a medida con todos los beneficios de la Express Page. Para que tus clientes disfruten al máximo de la experiencia de compra en tu tienda.</p>   
-		  <br>
-	   </div>
-        <div class="panel-footer">
-          <h3>Desde $10.000</h3>
-          <h4>Más costos de mantenimiento</h4>
-        </div>
-      </div>      
-    </div>
-	
-  </div>
-  
+
+<div id="pricing" class="container-fluid bg-secundario">
+   <h2 class="text-center">PRECIOS</h2>
+  <h4 class="text-center">Los costos expresados a continuación son a modo de referencia. Para tener un presupuesto según sus necesidades contactenos por cualquiera de los medios especificados en la sección de Contacto.</h4>
+  <br>
+    <table class="table bg-white">
+      <tbody>
+        <tr>
+          <td>Landing Page</td>
+          <td>Desde $2.000</td>
+        </tr>
+        <tr>
+          <td>TiendaNube - Puesta en marcha</td>
+          <td>$ 1.500</td>
+        </tr>
+        <tr>
+          <td>TiendaNube - Tienda Express</td>
+          <td>$ 3.500</td>
+        </tr>
+        <tr>
+          <td>TiendaNube - Tienda Premium</td>
+          <td>Desde $ 10.000</td>
+        </tr>
+        <tr>
+          <td>PrestaShop - Catálogo</td>
+          <td>$ 8.000</td>
+        </tr>
+        <tr>
+          <td>PrestaShop - E-Commerce Express</td>
+          <td>Desde $ 15.000</td>
+        </tr>
+        <tr>
+          <td>Sistemas de gestión</td>
+          <td>Consultar</td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <p>Los precios expresados anteriormente NO incluyen: Hosting, dominio propio, cuentas de email, costos de mantenimientos de plataformas (ej. TiendaNube).</p>
+    <p><strong>Medios de pago:</strong> Efectivo, transferencia bancaria, MercadoPago.</p>
+    <p>En importes <strong>menores o iguales a $10.000</strong>: Se abona el 50% al comenzar el trabajo y el 50% restante al momento de finalizar el proyecto. </p>
+    <p>En importes <strong>mayores a $10.000</strong>: Se realiza un pago inicial de $ 5.000 y el resto a acordar con el cliente.</p> 
+
 </div>
 
 <!-- Container (Contact Section) -->
-<div id="contact" class="container-fluid">
-  <h2 class="text-center">CONTACTO</h2>
-      <p class="text-center">Contacta con nosotros. Te estaremos respondiendo en las proximas 24 hs.</p>
+<div class="row container-fluid bg-primario" id="contact">
+  <div class="col-lg-9">
+    <h2 class="text-center txt-white">CONTACTO</h2>
+    <p class="text-center txt-gray">Contacta con nosotros. Te estaremos respondiendo en las proximas 24 hs.</p>
     
-	<div class="row" style="margin:0 -16px">
-		<div class="col-sm-1 form-group"></div>
-      <div class="col-sm-3 form-group text-center contacto"> 
-		<span class="glyphicon glyphicon-envelope logo-small"></span>
-        <p>info@merakisolution.com</p>
+    <div class="row" style="margin:0 -16px">
+      
+      <div class="col-md-4 form-group text-center"> 
+        <i class="fa txt-secundario" style="font-size:50px">&#xf0e0;</i>
+        <p class="txt-white">info@merakisolution.com</p>
+      </div>
+
+      <div class="col-md-4 form-group text-center">
+        <i class="fa fa-phone txt-secundario" style="font-size:50px"></i>
+        <p class="txt-white">(011) 3118 1287</p>
+      </div>
+          
+      <div class="col-md-4 form-group text-center">
+        <i class="fa txt-secundario" style="font-size:50px">&#xf0ac;</i>
+        <p class="txt-white">Villa Giardino, Córdoba, Arg.</p> 
+      </div>
+    </div>    
+  </div>  
+  <br>
+  <div class="col-lg-3">
+    <h2 class="text-center txt-white">REDES SOCIALES</h2>
+     <p class="text-center txt-gray">Seguinos y entérate de nuestras novedades.</p>
+    <div class="row">
+      <div class="col-sm-4 form-group text-center">
+        <a href="https://www.facebook.com/MerakiSolutionArg" class="btn txt-white" target="_blank"><img src="https://img.icons8.com/ios-filled/50/000000/facebook-new.png"></a>
+      </div>
+
+      <div class="col-sm-4 form-group text-center">
+        <a href="https://m.me/333771767364778" class="btn txt-white" target="_blank"><img src="https://img.icons8.com/ios/50/000000/facebook-messenger.png"></a>
       </div>
       <div class="col-sm-4 form-group text-center">
-		<!--span class="glyphicon glyphicon-globe logo-small"></span>
-        <p>Alta Gracia, Pcia. de Córdoba, Argentina.</p--> <br>
-		<a href="https://m.me/333771767364778" class="fb-msg-btn" target="_blank">Envíanos un mensaje de Facebook</a>
-      </div>
-      <div class="col-sm-3 form-group text-center">
-		<span class="glyphicon glyphicon-phone-alt logo-small"></span>
-        <p>(011) 15 - 3118 1287</p>
+        <a href="https://www.instagram.com/merakisolution1/" class="btn txt-white" target="_blank"><img src="https://img.icons8.com/ios/50/000000/instagram-new.png"></a>
       </div>
     </div>
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-	<a href="https://api.whatsapp.com/send?phone=5491131181287" class="float" target="_blank">
-		<i class="fa fa-whatsapp my-float"></i>
-	</a>
-
+  </div>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <a href="https://api.whatsapp.com/send?phone=5491131181287" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  </a>
 </div>
 
 
-<footer class="text-center">
+<footer class="text-center bg-final">
   <br>
-  <a href="#myPage" title="To Top">
-    <span class="glyphicon glyphicon-chevron-up"></span>
-  </a>	
 </footer>
 
 <script>
-$(document).ready(function(){
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
-    // Prevent default anchor click behavior
-    event.preventDefault();
-
-    // Store hash
-    var hash = this.hash;
-
-    // Using jQuery's animate() method to add smooth page scroll
-    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-    $('html, body').animate({
-      scrollTop: $(hash).offset().top
-    }, 900, function(){
-   
-      // Add hash (#) to URL when done scrolling (default click behavior)
-      window.location.hash = hash;
-    });
-  });
-  
-  $(window).scroll(function() {
-    $(".slideanim").each(function(){
-      var pos = $(this).offset().top;
-
-      var winTop = $(window).scrollTop();
-        if (pos < winTop + 600) {
-          $(this).addClass("slide");
-        }
-    });
-  });
-})
 </script>
 
 </body>
